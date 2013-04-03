@@ -44,17 +44,23 @@ def ReadCompound( c ):
     RetDict['IncludeList'] = IncList
     return RetDict
 
-def ReadFile(filename):
+def ReadFile(filename, MaxIncCount = -1, MaxIncCountId = "none"):
     print "// %s" % "Reading compounds in file %s" % filename
     tree = etree.parse(filename)
     root = tree.getroot()
+
     for c in root.findall("compounddef"):
         NodeInfo = ReadCompound(c)
         print "// %s" % NodeInfo
         
+        if NodeInfo['Kind'] != 'file':
+            print >> sys.stderr, " %s not a file-- skipping"%NodeInfo['Label']
+            continue
+
         if NodeInfo['IncludedCount'] == 0 and len( NodeInfo['IncludeList']) == 0:
             print >> sys.stderr, " %s not include and includes nothing -- skipping"%NodeInfo['Label']
             continue
+        
             
         print "node [shape = circle,width=1,fixedsize=true]; %s;" % ( NodeInfo['Id'])
         
@@ -62,27 +68,35 @@ def ReadFile(filename):
         #print "node [shape = circle,width=%d,fixedsize=true]; %s;" % (NodeInfo['IncludedCount'] + 1, NodeInfo['Id'])
         for inc in NodeInfo['IncludeList']:
             print "%s -> %s;" % (NodeInfo['Id'], inc)
+            
+        if NodeInfo['IncludedCount'] > MaxIncCount:
+            MaxIncCount = NodeInfo['IncludedCount']
+            MaxIncCountId = NodeInfo['Id']
+            
     print "" # output candy
+    return MaxIncCount, MaxIncCountId
 
-GraphHeader = '''digraph Files {
+DigraphHeader = '''digraph Files {
     label = "Listing files by includes";
     rankdir = LR;
 '''
-GraphFooter = '''
+DigraphFooter = '''
 }
 '''    
     
 if __name__ == '__main__':
     print "// %s"%"Parsing xml files from %s"%BaseDir
 
-    print GraphHeader
-
+    print DigraphHeader
+    MaxIncCount, MaxIncCountId = -1, "none"
+    
     for filename in glob.glob(os.path.join(BaseDir, '*.xml')):
         #Filename = "analog_8c.xml"
         #FullFilename = os.path.join( BaseDir, Filename )
         try:
-            ReadFile(filename )
+            MaxIncCount, MaxIncCountId = ReadFile(filename, MaxIncCount, MaxIncCountId )
         except xml.etree.ElementTree.ParseError:
             print sys.stderr, "malformed xml in file %s - skipping"%filename
     
-    print GraphFooter
+    print 'graph [ranksep=3, root="%s"];'%MaxIncCountId
+    print DigraphFooter
