@@ -1,0 +1,236 @@
+<translationUnit tokenValue="int" tokenLine="1" tokenColumn="0">
+  <externalDeclaration tokenValue="int" tokenLine="1" tokenColumn="0">
+    <declaration tokenValue="int" tokenLine="1" tokenColumn="0">
+      <declarationSpecifiers tokenValue="int" tokenLine="1" tokenColumn="0">
+        <typeSpecifier tokenValue="int" tokenLine="1" tokenColumn="0">
+          <INT tokenValue="int" tokenLine="1" tokenColumn="0"/>
+        </typeSpecifier>
+      </declarationSpecifiers>
+      <declarator tokenValue="outbyte" tokenLine="1" tokenColumn="4">
+        <functionDeclarator tokenValue="outbyte" tokenLine="1" tokenColumn="4">
+          <functionName tokenValue="outbyte" tokenLine="1" tokenColumn="4">
+            <IDENTIFIER tokenValue="outbyte" tokenLine="1" tokenColumn="4"/>
+          </functionName>
+          <LPARENTHESIS tokenValue="(" tokenLine="1" tokenColumn="11"/>
+          <parameterTypeList tokenValue="int" tokenLine="1" tokenColumn="12">
+            <parameterDeclaration tokenValue="int" tokenLine="1" tokenColumn="12">
+              <declarationSpecifiers tokenValue="int" tokenLine="1" tokenColumn="12">
+                <typeSpecifier tokenValue="int" tokenLine="1" tokenColumn="12">
+                  <INT tokenValue="int" tokenLine="1" tokenColumn="12"/>
+                </typeSpecifier>
+              </declarationSpecifiers>
+              <declarator tokenValue="c" tokenLine="1" tokenColumn="16">
+                <directDeclarator tokenValue="c" tokenLine="1" tokenColumn="16">
+                  <IDENTIFIER tokenValue="c" tokenLine="1" tokenColumn="16"/>
+                </directDeclarator>
+              </declarator>
+            </parameterDeclaration>
+          </parameterTypeList>
+          <RPARENTHESIS tokenValue=")" tokenLine="1" tokenColumn="17"/>
+        </functionDeclarator>
+      </declarator>
+      <SEMICOLON tokenValue=";" tokenLine="1" tokenColumn="18"/>
+    </declaration>
+  </externalDeclaration>
+  <externalDeclaration tokenValue="int" tokenLine="2" tokenColumn="0">
+    <declaration tokenValue="int" tokenLine="2" tokenColumn="0">
+      <declarationSpecifiers tokenValue="int" tokenLine="2" tokenColumn="0">
+        <typeSpecifier tokenValue="int" tokenLine="2" tokenColumn="0">
+          <INT tokenValue="int" tokenLine="2" tokenColumn="0"/>
+        </typeSpecifier>
+      </declarationSpecifiers>
+      <declarator tokenValue="putchar" tokenLine="2" tokenColumn="4">
+        <functionDeclarator tokenValue="putchar" tokenLine="2" tokenColumn="4">
+          <functionName tokenValue="putchar" tokenLine="2" tokenColumn="4">
+            <IDENTIFIER tokenValue="putchar" tokenLine="2" tokenColumn="4"/>
+          </functionName>
+          <LPARENTHESIS tokenValue="(" tokenLine="2" tokenColumn="11"/>
+          <parameterTypeList tokenValue="int" tokenLine="2" tokenColumn="12">
+            <parameterDeclaration tokenValue="int" tokenLine="2" tokenColumn="12">
+              <declarationSpecifiers tokenValue="int" tokenLine="2" tokenColumn="12">
+                <typeSpecifier tokenValue="int" tokenLine="2" tokenColumn="12">
+                  <INT tokenValue="int" tokenLine="2" tokenColumn="12"/>
+                </typeSpecifier>
+              </declarationSpecifiers>
+              <declarator tokenValue="c" tokenLine="2" tokenColumn="16">
+                <directDeclarator tokenValue="c" tokenLine="2" tokenColumn="16">
+                  <IDENTIFIER tokenValue="c" tokenLine="2" tokenColumn="16"/>
+                </directDeclarator>
+              </declarator>
+            </parameterDeclaration>
+          </parameterTypeList>
+          <RPARENTHESIS tokenValue=")" tokenLine="2" tokenColumn="17"/>
+        </functionDeclarator>
+      </declarator>
+      <SEMICOLON tokenValue=";" tokenLine="2" tokenColumn="18"/>
+    </declaration>
+  </externalDeclaration>
+  <externalDeclaration tokenValue="static" tokenLine="6" tokenColumn="0">
+    <functionDefinition tokenValue="static" tokenLine="6" tokenColumn="0">
+      <declarationSpecifiers tokenValue="static" tokenLine="6" tokenColumn="0">
+        <storageClassSpecifier tokenValue="static" tokenLine="6" tokenColumn="0">
+          <STATIC tokenValue="static" tokenLine="6" tokenColumn="0"/>
+        </storageClassSpecifier>
+        <typeSpecifier tokenValue="void" tokenLine="6" tokenColumn="7">
+          <VOID tokenValue="void" tokenLine="6" tokenColumn="7"/>
+        </typeSpecifier>
+      </declarationSpecifiers>
+      <functionDeclarator tokenValue="printchar" tokenLine="6" tokenColumn="12">
+        <functionName tokenValue="printchar" tokenLine="6" tokenColumn="12">
+          <IDENTIFIER tokenValue="printchar" tokenLine="6" tokenColumn="12"/>
+        </functionName>
+        <LPARENTHESIS tokenValue="(" tokenLine="6" tokenColumn="21"/>
+        <parameterTypeList tokenValue="char" tokenLine="6" tokenColumn="22">
+          <parameterDeclaration tokenValue="char" tokenLine="6" tokenColumn="22">
+            <declarationSpecifiers tokenValue="char" tokenLine="6" tokenColumn="22">
+              <typeSpecifier tokenValue="char" tokenLine="6" tokenColumn="22">
+                <CHAR tokenValue="char" tokenLine="6" tokenColumn="22"/>
+              </typeSpecifier>
+            </declarationSpecifiers>
+            <declarator tokenValue="*" tokenLine="6" tokenColumn="27">
+              <pointer tokenValue="*" tokenLine="6" tokenColumn="27">
+                <STAR tokenValue="*" tokenLine="6" tokenColumn="27"/>
+                <pointer tokenValue="*" tokenLine="6" tokenColumn="28">
+                  <STAR tokenValue="*" tokenLine="6" tokenColumn="28"/>
+                </pointer>
+              </pointer>
+              <directDeclarator tokenValue="str" tokenLine="6" tokenColumn="29">
+                <IDENTIFIER tokenValue="str" tokenLine="6" tokenColumn="29"/>
+              </directDeclarator>
+            </declarator>
+          </parameterDeclaration>
+          <COMMA tokenValue="," tokenLine="6" tokenColumn="32"/>
+          <parameterDeclaration tokenValue="int" tokenLine="6" tokenColumn="34">
+            <declarationSpecifiers tokenValue="int" tokenLine="6" tokenColumn="34">
+              <typeSpecifier tokenValue="int" tokenLine="6" tokenColumn="34">
+                <INT tokenValue="int" tokenLine="6" tokenColumn="34"/>
+              </typeSpecifier>
+            </declarationSpecifiers>
+            <declarator tokenValue="c" tokenLine="6" tokenColumn="38">
+              <directDeclarator tokenValue="c" tokenLine="6" tokenColumn="38">
+                <IDENTIFIER tokenValue="c" tokenLine="6" tokenColumn="38"/>
+              </directDeclarator>
+            </declarator>
+          </parameterDeclaration>
+        </parameterTypeList>
+        <RPARENTHESIS tokenValue=")" tokenLine="6" tokenColumn="39"/>
+      </functionDeclarator>
+      <compoundStatement tokenValue="{" tokenLine="7" tokenColumn="0">
+        <LCURLYBRACE tokenValue="{" tokenLine="7" tokenColumn="0"/>
+        <statement tokenValue="if" tokenLine="8" tokenColumn="2">
+          <ifStatement tokenValue="if" tokenLine="8" tokenColumn="2">
+            <IF tokenValue="if" tokenLine="8" tokenColumn="2"/>
+            <LPARENTHESIS tokenValue="(" tokenLine="8" tokenColumn="5"/>
+            <booleanExpressionList tokenValue="str" tokenLine="8" tokenColumn="6">
+              <expressionList tokenValue="str" tokenLine="8" tokenColumn="6">
+                <expression tokenValue="str" tokenLine="8" tokenColumn="6">
+                  <primaryExpression tokenValue="str" tokenLine="8" tokenColumn="6">
+                    <IDENTIFIER tokenValue="str" tokenLine="8" tokenColumn="6"/>
+                  </primaryExpression>
+                </expression>
+              </expressionList>
+            </booleanExpressionList>
+            <RPARENTHESIS tokenValue=")" tokenLine="8" tokenColumn="9"/>
+            <statement tokenValue="{" tokenLine="8" tokenColumn="11">
+              <compoundStatement tokenValue="{" tokenLine="8" tokenColumn="11">
+                <LCURLYBRACE tokenValue="{" tokenLine="8" tokenColumn="11"/>
+                <statement tokenValue="*" tokenLine="9" tokenColumn="4">
+                  <expressionStatement tokenValue="*" tokenLine="9" tokenColumn="4">
+                    <expressionList tokenValue="*" tokenLine="9" tokenColumn="4">
+                      <expression tokenValue="*" tokenLine="9" tokenColumn="4">
+                        <assignmentExpression tokenValue="*" tokenLine="9" tokenColumn="4">
+                          <unaryExpression tokenValue="*" tokenLine="9" tokenColumn="4">
+                            <unaryOperator tokenValue="*" tokenLine="9" tokenColumn="4">
+                              <STAR tokenValue="*" tokenLine="9" tokenColumn="4"/>
+                            </unaryOperator>
+                            <unaryExpression tokenValue="*" tokenLine="9" tokenColumn="5">
+                              <unaryOperator tokenValue="*" tokenLine="9" tokenColumn="5">
+                                <STAR tokenValue="*" tokenLine="9" tokenColumn="5"/>
+                              </unaryOperator>
+                              <primaryExpression tokenValue="str" tokenLine="9" tokenColumn="6">
+                                <IDENTIFIER tokenValue="str" tokenLine="9" tokenColumn="6"/>
+                              </primaryExpression>
+                            </unaryExpression>
+                          </unaryExpression>
+                          <assignementOperator tokenValue="=" tokenLine="9" tokenColumn="10">
+                            <EQUAL tokenValue="=" tokenLine="9" tokenColumn="10"/>
+                          </assignementOperator>
+                          <primaryExpression tokenValue="c" tokenLine="9" tokenColumn="12">
+                            <IDENTIFIER tokenValue="c" tokenLine="9" tokenColumn="12"/>
+                          </primaryExpression>
+                        </assignmentExpression>
+                      </expression>
+                    </expressionList>
+                    <SEMICOLON tokenValue=";" tokenLine="9" tokenColumn="13"/>
+                  </expressionStatement>
+                </statement>
+                <statement tokenValue="++" tokenLine="10" tokenColumn="4">
+                  <expressionStatement tokenValue="++" tokenLine="10" tokenColumn="4">
+                    <expressionList tokenValue="++" tokenLine="10" tokenColumn="4">
+                      <expression tokenValue="++" tokenLine="10" tokenColumn="4">
+                        <unaryExpression tokenValue="++" tokenLine="10" tokenColumn="4">
+                          <INC_OP tokenValue="++" tokenLine="10" tokenColumn="4"/>
+                          <primaryExpression tokenValue="(" tokenLine="10" tokenColumn="6">
+                            <LPARENTHESIS tokenValue="(" tokenLine="10" tokenColumn="6"/>
+                            <expressionList tokenValue="*" tokenLine="10" tokenColumn="7">
+                              <expression tokenValue="*" tokenLine="10" tokenColumn="7">
+                                <unaryExpression tokenValue="*" tokenLine="10" tokenColumn="7">
+                                  <unaryOperator tokenValue="*" tokenLine="10" tokenColumn="7">
+                                    <STAR tokenValue="*" tokenLine="10" tokenColumn="7"/>
+                                  </unaryOperator>
+                                  <primaryExpression tokenValue="str" tokenLine="10" tokenColumn="8">
+                                    <IDENTIFIER tokenValue="str" tokenLine="10" tokenColumn="8"/>
+                                  </primaryExpression>
+                                </unaryExpression>
+                              </expression>
+                            </expressionList>
+                            <RPARENTHESIS tokenValue=")" tokenLine="10" tokenColumn="11"/>
+                          </primaryExpression>
+                        </unaryExpression>
+                      </expression>
+                    </expressionList>
+                    <SEMICOLON tokenValue=";" tokenLine="10" tokenColumn="12"/>
+                  </expressionStatement>
+                </statement>
+                <RCURLYBRACE tokenValue="}" tokenLine="11" tokenColumn="2"/>
+              </compoundStatement>
+            </statement>
+            <elseClause tokenValue="else" tokenLine="12" tokenColumn="2">
+              <ELSE tokenValue="else" tokenLine="12" tokenColumn="2"/>
+              <statement tokenValue="{" tokenLine="12" tokenColumn="7">
+                <compoundStatement tokenValue="{" tokenLine="12"tokenColumn="7">
+                  <LCURLYBRACE tokenValue="{" tokenLine="12" tokenColumn="7"/>
+                  <declaration tokenValue="putchar" tokenLine="13"tokenColumn="4">
+                    <declarationSpecifiers tokenValue="putchar"tokenLine="13" tokenColumn="4">
+                      <typeSpecifier tokenValue="putchar"tokenLine="13" tokenColumn="4">
+                        <typedefName tokenValue="putchar"tokenLine="13" tokenColumn="4">
+                          <IDENTIFIER tokenValue="putchar"tokenLine="13" tokenColumn="4"/>
+                        </typedefName>
+                      </typeSpecifier>
+                    </declarationSpecifiers>
+                    <declarator tokenValue="(" tokenLine="13" tokenColumn="11">
+                      <directDeclarator tokenValue="(" tokenLine="13"tokenColumn="11">
+                        <LPARENTHESIS tokenValue="(" tokenLine="13"tokenColumn="11"/>
+                        <declarator tokenValue="c" tokenLine="13"tokenColumn="12">
+                          <directDeclarator tokenValue="c"tokenLine="13" tokenColumn="12">
+                            <IDENTIFIER tokenValue="c" tokenLine="13"tokenColumn="12"/>
+                          </directDeclarator>
+                        </declarator>
+                        <RPARENTHESIS tokenValue=")" tokenLine="13" tokenColumn="13"/>
+                      </directDeclarator>
+                    </declarator>
+                    <SEMICOLON tokenValue=";" tokenLine="13" tokenColumn="14"/>
+                  </declaration>
+                  <RCURLYBRACE tokenValue="}" tokenLine="14" tokenColumn="2"/>
+                </compoundStatement>
+              </statement>
+            </elseClause>
+          </ifStatement>
+        </statement>
+        <RCURLYBRACE tokenValue="}" tokenLine="15" tokenColumn="0"/>
+      </compoundStatement>
+    </functionDefinition>
+  </externalDeclaration>
+  <EOF tokenLine="15" tokenColumn="1"/>
+</translationUnit>
+
