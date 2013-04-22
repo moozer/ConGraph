@@ -198,22 +198,22 @@
             <elseClause tokenValue="else" tokenLine="12" tokenColumn="2">
               <ELSE tokenValue="else" tokenLine="12" tokenColumn="2"/>
               <statement tokenValue="{" tokenLine="12" tokenColumn="7">
-                <compoundStatement tokenValue="{" tokenLine="12"tokenColumn="7">
+                <compoundStatement tokenValue="{" tokenLine="12" tokenColumn="7">
                   <LCURLYBRACE tokenValue="{" tokenLine="12" tokenColumn="7"/>
-                  <declaration tokenValue="putchar" tokenLine="13"tokenColumn="4">
-                    <declarationSpecifiers tokenValue="putchar"tokenLine="13" tokenColumn="4">
-                      <typeSpecifier tokenValue="putchar"tokenLine="13" tokenColumn="4">
-                        <typedefName tokenValue="putchar"tokenLine="13" tokenColumn="4">
-                          <IDENTIFIER tokenValue="putchar"tokenLine="13" tokenColumn="4"/>
+                  <declaration tokenValue="putchar" tokenLine="13" tokenColumn="4">
+                    <declarationSpecifiers tokenValue="putchar" tokenLine="13" tokenColumn="4">
+                      <typeSpecifier tokenValue="putchar" tokenLine="13" tokenColumn="4">
+                        <typedefName tokenValue="putchar" tokenLine="13" tokenColumn="4">
+                          <IDENTIFIER tokenValue="putchar" tokenLine="13" tokenColumn="4"/>
                         </typedefName>
                       </typeSpecifier>
                     </declarationSpecifiers>
                     <declarator tokenValue="(" tokenLine="13" tokenColumn="11">
-                      <directDeclarator tokenValue="(" tokenLine="13"tokenColumn="11">
-                        <LPARENTHESIS tokenValue="(" tokenLine="13"tokenColumn="11"/>
-                        <declarator tokenValue="c" tokenLine="13"tokenColumn="12">
-                          <directDeclarator tokenValue="c"tokenLine="13" tokenColumn="12">
-                            <IDENTIFIER tokenValue="c" tokenLine="13"tokenColumn="12"/>
+                      <directDeclarator tokenValue="(" tokenLine="13" tokenColumn="11">
+                        <LPARENTHESIS tokenValue="(" tokenLine="13" tokenColumn="11"/>
+                        <declarator tokenValue="c" tokenLine="13" tokenColumn="12">
+                          <directDeclarator tokenValue="c" tokenLine="13" tokenColumn="12">
+                            <IDENTIFIER tokenValue="c" tokenLine="13" tokenColumn="12"/>
                           </directDeclarator>
                         </declarator>
                         <RPARENTHESIS tokenValue=")" tokenLine="13" tokenColumn="13"/>
