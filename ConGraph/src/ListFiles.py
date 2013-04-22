@@ -3,6 +3,14 @@ Created on 3 Apr 2013
 
 @author: moz
 
+Basic program that processes doxygens xml output.
+- input: doxygen xml (as in all xml files from the "basedir" directory)
+- output: .dot data of connected files in file specified in "FilesGraphDotFilename" var
+
+to use the output run something like this on the command line
+- fdp -Tpng -o output.png FileIncludes.dot
+(it is ugly, and some parameters need to be tweaked...)
+
 '''
 import os.path
 import xml.etree.ElementTree as etree
